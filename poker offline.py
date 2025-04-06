@@ -67,7 +67,6 @@ def evaluate_hand(cards):
         return (1, [values_by_count[0][0]])  # One Pair
     return (0, values[:5])  # High Card
 
-# Estimasi sederhana peluang menang
 def estimate_win(player_hand, opponent_hand, community_cards):
     full_player = player_hand + community_cards
     full_opponent = opponent_hand + community_cards
