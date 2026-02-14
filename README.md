@@ -33,7 +33,7 @@ An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect veh
 - JavaScript | PHP | Python | SQL | C++ | HTML | CSS 
 
 **AI/ML:**
-- Google Colab  
+- Google Colab | SKlearn | PyTorch 
 
 **IoT & Embedded:**
 - Raspberry Pi | Sensors | AIoT Systems  
