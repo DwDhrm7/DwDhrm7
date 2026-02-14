@@ -21,7 +21,6 @@ I am an IT student passionate about **Artificial Intelligence, Robotics, and Emb
 An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect vehicle density and dynamically adjust traffic light timing to reduce congestion.
 
 **Tech Stack:**
-- HTML, CSS, JS, Next.js
 - Python, YOLOv8 
 - Raspberry Pi  
 - Embedded Systems & IoT  
@@ -31,7 +30,7 @@ An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect veh
 ## 🛠️ Tech Stack
 
 **Languages:**
-- JavaScript | PHP | Python | SQL | C++
+- JavaScript | PHP | Python | SQL | C++ | HTML | CSS 
 
 **AI/ML:**
 - Google Colab  
