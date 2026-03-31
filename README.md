@@ -47,8 +47,8 @@ An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect veh
 
 - Machine Learning & Deep Learning  
 - Robotics Simulation  
-- Digital Forensics  
-- Networking & Security  
+- AIoT  
+- Software Engineering  
 - Smart City Systems  
 
 ---
