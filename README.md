@@ -10,7 +10,7 @@ I am an IT student passionate about **Artificial Intelligence, Robotics, and Emb
 - 🎓 **IT Student at ITB STIKOM Bali**
 - 🤖 Interested in: AI, Machine Learning, Robotics, IoT, and Smart Systems 
 - 🧠 Currently learning: ML pipelines, AI, and Software Development 
-- 💻 Main tools: Python, VS Code, Google Colab, Raspberry Pi 
+- 💻 Main tools: Anti Gravity, VS Code, Kaggle, Raspberry Pi 
 - 💡 Goal: Work at global tech companies like **NVIDIA, Google, or Apple**
 
 ---
@@ -30,16 +30,16 @@ An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect veh
 ## 🛠️ Tech Stack
 
 **Languages:**
-- JavaScript | PHP | Python | SQL | C++ | HTML | CSS 
+- JavaScript | Python | SQL | C++ | HTML | CSS 
 
 **AI/ML:**
-- Google Colab | SKlearn | PyTorch 
+- Kaggle | SKlearn | PyTorch 
 
 **IoT & Embedded:**
-- Raspberry Pi | Sensors | AIoT Systems  
+- Raspberry Pi | Esp32 | AIoT Systems  
 
 **Tools:**
-- VS Code | Git | Linux (Kali/Ubuntu) | Figma  
+- VS Code/Anti Gravity | Git | Linux (Kali/Ubuntu) | Figma  
 
 ---
 
@@ -55,4 +55,4 @@ An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect veh
 
 ## ⭐ Fun Fact
 
-I started as a writer of short stories and theater scripts — now I build AI systems and robots. Creativity + Technology is my superpower. 😄
+I started as a writer of short stories and theater scripts. Now I build AI systems and automation. Creativity + Technology is my superpower. 
