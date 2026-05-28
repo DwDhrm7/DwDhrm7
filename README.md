@@ -30,7 +30,10 @@ An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect veh
 ## 🛠️ Tech Stack
 
 **Languages:**
-- JavaScript | Python | SQL | C++ | HTML | CSS 
+- JavaScript | Typescript | Python | SQL | C++ | HTML | CSS 
+
+**Frameworks:**
+- Next.js | React Native | Vue.js | Nest.js
 
 **AI/ML:**
 - Kaggle | SKlearn | PyTorch 
