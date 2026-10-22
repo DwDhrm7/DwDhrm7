@@ -1,61 +1,56 @@
-# 👋 Hi, I'm I Dewa Made Dharma Putra Santika
+# Hi, I'm Dewa 👋
 
-> IT Student | AI & Robotics Enthusiast | IoT | Machine Learning | Creative Technologist  
+**Frontend & Full-Stack Developer — Dashboards, IoT, and clean interfaces**
 
-I am an IT student passionate about **Artificial Intelligence, Robotics, and Embedded Systems**. I love building intelligent systems that bridge software, hardware, and real-world applications — especially in the context of Smart City and automation.
+I build responsive web apps and real-time dashboards with Next.js, React Native, and Tailwind CSS, with a focus on IoT and data-heavy products. I'm an Information Technology student at ITB STIKOM Bali (graduating 2027), open to remote freelance work.
 
-
-## 🚀 About Me
-
-- 🎓 **IT Student at ITB STIKOM Bali**
-- 🤖 Interested in: AI, Machine Learning, Robotics, IoT, and Smart Systems 
-- 🧠 Currently learning: ML pipelines, AI, and Software Development 
-- 💻 Main tools: Anti Gravity, VS Code, Kaggle, Raspberry Pi 
-- 💡 Goal: Work at global tech companies like **NVIDIA, Google, or Apple**
+[Portfolio](https://dwdhr.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/idewamadedharmaputrasantika) · [Kaggle](https://www.kaggle.com/dewadharmas) · [Upwork](https://www.upwork.com/freelancers/~014b60a105ec71a514)
 
 ---
 
-## 🔬 Featured Projects
+## What I can help with
 
-### 🛑 **SIGMA – Smart Intelligent Guidance for Mobility Automation**
-An AI-based smart traffic system using **YOLOv8** and Raspberry Pi to detect vehicle density and dynamically adjust traffic light timing to reduce congestion.
-
-**Tech Stack:**
-- Python, YOLOv8 
-- Raspberry Pi  
-- Embedded Systems & IoT  
+- Admin panels and analytics dashboards
+- Landing pages and business websites
+- React Native mobile apps
+- Connecting sensors and APIs (MQTT, REST) to a clear UI
 
 ---
 
-## 🛠️ Tech Stack
+## Selected work
 
-**Languages:**
-- JavaScript | Typescript | Python | SQL | C++ | HTML | CSS 
+**AgriSense** — smart farming IoT platform *(IoT Development Intern, PT Bima Sakti Sanjaya)*
+Real-time Next.js dashboard and support for the React Native app. Sensor data (water EC/TDS, air, soil moisture/pH/NPK) flows over MQTT through Node-RED from a Raspberry Pi edge device.
+Mobile app: [agrisense-mob](https://github.com/DwDhrm7/agrisense-mob)
 
-**Frameworks:**
-- Next.js | React Native | Vue.js | Nest.js
+**COASTHER** — smart boarding-house IoT system
+Monitors electricity (ESP32, PZEM-004T) and water usage (YF-S201) in real time over MQTT/HiveMQ, with a Next.js dashboard and a companion React Native app.
 
-**AI/ML:**
-- Kaggle | SKlearn | PyTorch 
+**NADI** — smart tourism concept for Bali *(GEMASTIK XIX 2026 competition proposal, team lead)*
+An adaptive itinerary system that responds to traffic, crowding, and weather. Includes a working prototype of the city-operator dashboard.
 
-**IoT & Embedded:**
-- Raspberry Pi | Esp32 | AIoT Systems  
-
-**Tools:**
-- VS Code/Anti Gravity | Git | Linux (Kali/Ubuntu) | Figma  
+**SIGMA** — adaptive traffic signal concept *(GEMASTIK XVIII 2025 competition proposal, team lead)*
+YOLOv8 vehicle detection on a Raspberry Pi to adjust green-light duration.
 
 ---
 
-## 🌱 What I'm Learning
+## Research
 
-- Machine Learning & Deep Learning  
-- Robotics Simulation  
-- AIoT  
-- Software Engineering  
-- Smart City Systems  
+- [Hybrid K-NN for Dangdut Music Sub-Genre Classification](https://doi.org/10.30871/jaic.v9i4.9702) — JAIC, Vol. 9 No. 4 (Aug 2025), SINTA 3
+- [MFCC Feature Performance Analysis for Dangdut Sub-Genre Classification](https://doi.org/10.30871/jaic.v10i3.12760) — JAIC, Vol. 10 No. 3 (Jun 2026), SINTA 3
 
 ---
 
-## ⭐ Fun Fact
+## Tech stack
 
-I started as a writer of short stories and theater scripts. Now I build AI systems and automation. Creativity + Technology is my superpower. 
+**Web & mobile:** TypeScript, JavaScript, Next.js, React Native, Tailwind CSS
+**Data & backend:** PostgreSQL, MySQL, Firebase, Python
+**IoT & edge:** MQTT, Node-RED, ESP32, Raspberry Pi
+**ML (applied):** scikit-learn, TensorFlow, OpenCV, YOLOv8
+**Tools:** Git, Figma, Linux
+
+---
+
+## Fun fact
+
+I started out writing short stories and theater scripts. Now I build interfaces and IoT systems, and I still care about telling a clear story with every screen.
