@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-labelledby="t d">
+  <title id="t">I Dewa Made Dharma Putra Santika</title>
+  <desc id="d">Animated header: a terminal-style prompt types out "Frontend and full-stack developer", "Dashboards, IoT, AI integration", and "Engineering clarity from complexity", above a pulsing sensor line.</desc>
+  <style>
+    :root {
+      --bg: #f6f8fa; --ink: #1f2328; --muted: #656d76; --line: #d0d7de; --accent: #1a7f37;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d1117; --ink: #e6edf3; --muted: #7d8590; --line: #30363d; --accent: #56d364; }
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .bg { fill: var(--bg); }
+    .frame { fill: none; stroke: var(--line); stroke-width: 1; }
+    .muted { fill: var(--muted); }
+    .ink { fill: var(--ink); }
+    .accent { fill: var(--accent); }
+    .cover { fill: var(--bg); }
+
+    /* typed lines: a cover rectangle slides right to reveal the text, then the line fades */
+    .line { opacity: 0; }
+    .l1 { animation: show1 12s infinite; }
+    .l2 { animation: show2 12s infinite; }
+    .l3 { animation: show3 12s infinite; }
+    @keyframes show1 { 0%,1% {opacity:0} 2%,29% {opacity:1} 32%,100% {opacity:0} }
+    @keyframes show2 { 0%,34% {opacity:0} 35%,62% {opacity:1} 65%,100% {opacity:0} }
+    @keyframes show3 { 0%,67% {opacity:0} 68%,95% {opacity:1} 98%,100% {opacity:0} }
+
+    .c1 { animation: type1 12s infinite; }
+    .c2 { animation: type2 12s infinite; }
+    .c3 { animation: type3 12s infinite; }
+    @keyframes type1 { 0%,2% {transform:translateX(0)} 14%,100% {transform:translateX(372px)} }
+    @keyframes type2 { 0%,35% {transform:translateX(0)} 47%,100% {transform:translateX(372px)} }
+    @keyframes type3 { 0%,68% {transform:translateX(0)} 82%,100% {transform:translateX(432px)} }
+    .c1 { animation-timing-function: steps(31, end); }
+    .c2 { animation-timing-function: steps(31, end); }
+    .c3 { animation-timing-function: steps(36, end); }
+
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* sensor pulse */
+    .base { fill: none; stroke: var(--line); stroke-width: 1.5; }
+    .pulse { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+             stroke-dasharray: 90 910; stroke-dashoffset: 90; animation: run 4s linear infinite; }
+    @keyframes run { to { stroke-dashoffset: -910; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .l1,.l2,.l3,.c1,.c2,.c3,.pulse,.cursor { animation: none; }
+      .l1 { opacity: 1; } .l2,.l3 { opacity: 0; } .cover { display: none; }
+      .pulse { stroke-dasharray: none; }
+    }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="900" height="230" rx="10"/>
+  <rect class="frame" x="0.5" y="0.5" width="899" height="229" rx="10"/>
+
+  <!-- window dots -->
+  <circle class="muted" cx="28" cy="26" r="4" opacity="0.5"/>
+  <circle class="muted" cx="44" cy="26" r="4" opacity="0.5"/>
+  <circle class="muted" cx="60" cy="26" r="4" opacity="0.5"/>
+  <text class="mono muted" x="872" y="30" font-size="12" text-anchor="end">dewa@bali:~</text>
+
+  <!-- name -->
+  <text class="mono ink" x="40" y="86" font-size="29" font-weight="700" textLength="560" lengthAdjust="spacing">I DEWA MADE DHARMA PUTRA SANTIKA</text>
+
+  <!-- typed lines (prompt + text) -->
+  <g class="line l1" transform="translate(40,128)">
+    <text class="mono accent" x="0" y="0" font-size="20">&gt;</text>
+    <text class="mono ink" x="26" y="0" font-size="20" textLength="372" lengthAdjust="spacing">Frontend &amp; full-stack developer</text>
+    <g class="c1">
+      <rect class="cover" x="26" y="-20" width="460" height="28"/>
+      <rect class="accent cursor" x="26" y="-17" width="10" height="22"/>
+    </g>
+  </g>
+  <g class="line l2" transform="translate(40,128)">
+    <text class="mono accent" x="0" y="0" font-size="20">&gt;</text>
+    <text class="mono ink" x="26" y="0" font-size="20" textLength="372" lengthAdjust="spacing">Dashboards, IoT, AI integration</text>
+    <g class="c2">
+      <rect class="cover" x="26" y="-20" width="460" height="28"/>
+      <rect class="accent cursor" x="26" y="-17" width="10" height="22"/>
+    </g>
+  </g>
+  <g class="line l3" transform="translate(40,128)">
+    <text class="mono accent" x="0" y="0" font-size="20">&gt;</text>
+    <text class="mono ink" x="26" y="0" font-size="20" textLength="432" lengthAdjust="spacing">Engineering clarity from complexity.</text>
+    <g class="c3">
+      <rect class="cover" x="26" y="-20" width="460" height="28"/>
+      <rect class="accent cursor" x="26" y="-17" width="10" height="22"/>
+    </g>
+  </g>
+
+  <text class="mono muted" x="40" y="164" font-size="13">IT student, ITB STIKOM Bali  /  Denpasar, Indonesia  /  open to remote work</text>
+
+  <!-- sensor pulse -->
+  <path class="base" pathLength="1000" d="M40 198 H210 L226 198 L236 180 L248 214 L258 190 L266 198 H470 L486 198 L496 176 L510 216 L520 188 L528 198 H700 L716 198 L726 184 L738 210 L748 192 L756 198 H860"/>
+  <path class="pulse" pathLength="1000" d="M40 198 H210 L226 198 L236 180 L248 214 L258 190 L266 198 H470 L486 198 L496 176 L510 216 L520 188 L528 198 H700 L716 198 L726 184 L738 210 L748 192 L756 198 H860"/>
+  <text class="mono muted" x="860" y="222" font-size="11" text-anchor="end">sensor/pulse</text>
+</svg>
