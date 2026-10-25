@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 92" width="900" height="92" role="img" aria-labelledby="t d">
+<title id="t">Closing line</title>
+<desc id="d">Alternates between a line of code and a line of prose, reflecting a background in writing and engineering.</desc>
+<style>
+:root { --bg:#f6f8fa; --card:#ffffff; --ink:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#1a7f37; --soft:#eaeef2; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0d1117; --card:#0d1117; --ink:#e6edf3; --muted:#7d8590; --line:#30363d; --accent:#3fb950; --soft:#161b22; }
+}
+.mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+.bg { fill: var(--bg); } .card { fill: var(--card); stroke: var(--line); }
+.frame { fill:none; stroke: var(--line); }
+.ink { fill: var(--ink); } .muted { fill: var(--muted); } .accent { fill: var(--accent); }
+.soft { fill: var(--soft); }
+.sline { fill:none; stroke: var(--line); }
+.saccent { fill:none; stroke: var(--accent); stroke-linecap:round; stroke-linejoin:round; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+.a { animation: ta 14s infinite; } .b { animation: tb 14s infinite; opacity:0; }
+@keyframes ta { 0%,40% { opacity:1 } 46%,94% { opacity:0 } 100% { opacity:1 } }
+@keyframes tb { 0%,44% { opacity:0 } 50%,90% { opacity:1 } 96%,100% { opacity:0 } }
+@media (prefers-reduced-motion: reduce) { .b { opacity:0; } .a { opacity:1; } }
+</style>
+<rect class="bg" width="900" height="92" rx="10"/><rect class="frame" x="0.5" y="0.5" width="899" height="91" rx="10"/>
+<g class="a"><text class="mono muted" x="450" y="40" font-size="14" text-anchor="middle">// read the signal, then write it plainly</text><text class="mono ink" x="450" y="66" font-size="16" text-anchor="middle">const clarity = simplify(complexity);</text></g>
+<g class="b"><text class="mono muted" x="450" y="40" font-size="14" text-anchor="middle">dari penulis cerita pendek dan naskah teater</text><text class="mono ink" x="450" y="66" font-size="16" text-anchor="middle">ke antarmuka yang bercerita dengan jelas.</text></g>
+</svg>

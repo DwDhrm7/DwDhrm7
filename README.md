@@ -8,20 +8,40 @@
   <a href="https://www.kaggle.com/dewadharmas">Kaggle</a>
 </p>
 
+<p align="center">
+  <img src="assets/facts.svg" alt="Two SINTA 3 papers, two GEMASTIK entries led, two IoT platforms built, four months as an IoT intern." width="100%" />
+</p>
+
 I build dashboards and interfaces for data that arrives in real time: sensors, maps, and operations screens. I'm an Information Technology student at ITB STIKOM Bali (graduating 2027) and a former IoT development intern, comfortable across the stack from an ESP32 or Raspberry Pi to a Next.js or React Native screen.
 
 **Open to** remote freelance projects (dashboards, websites, IoT integration) and internships.
 
+<p align="center">
+  <img src="assets/divider.svg" alt="" width="100%" />
+</p>
+
+## The kind of screen I build
+
+<p align="center">
+  <img src="assets/telemetry.svg" alt="Preview of a smart-farm dashboard with temperature, humidity and water EC gauges and a streaming chart. Illustrative data." width="100%" />
+</p>
+
 ## Selected work
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [**AgriSense Web**](https://github.com/DwDhrm7/monitoring-sensor) | Real-time smart-farm dashboard: live gauges over MQTT, charts, threshold alerts, and an on-device crop recommendation engine. | Next.js, TypeScript, MQTT, Chart.js |
-| [**AgriSense Mobile**](https://github.com/DwDhrm7/agrisense-mob) | Android companion app with live readings, remote actuator control, and crop advice from Gemini with rule-based validation. | React Native, MQTT, Gemini API |
-| [**NADI Control Center**](https://github.com/DwDhrm7/nadi-control) | City-operator portal for traffic and tourism distribution: live map, YOLO-annotated CCTV verification, policy evaluation. Prototype for GEMASTIK XIX 2026. | Next.js, TypeScript, Leaflet, Recharts |
-| [**SIKAT**](https://github.com/DwDhrm7/sikat-karate) | Digital belt-promotion exams for a karate organisation: registration, payment proof, bib numbers, tablet scoring, printed results. | Next.js, Supabase (RLS) |
-| [**Coasther**](https://github.com/DwDhrm7/Coasther) | Boarding-house app for rooms, tenancy, and usage and payment tracking, part of a smart-kost IoT system. | React Native |
-| [**Portfolio**](https://github.com/DwDhrm7/dewa-portfolio) | Bilingual, monochrome editorial site. | Next.js, Tailwind, Framer Motion |
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/DwDhrm7/monitoring-sensor"><img src="assets/card-agrisense-web.svg" alt="AgriSense Web: real-time smart-farm dashboard with live MQTT gauges, charts, threshold alerts and an on-device crop recommendation engine. Next.js, TypeScript, MQTT, Chart.js." width="100%" /></a></td>
+    <td width="50%"><a href="https://github.com/DwDhrm7/agrisense-mob"><img src="assets/card-agrisense-mobile.svg" alt="AgriSense Mobile: Android companion app with live readings, remote actuator control and crop advice from Gemini. React Native, MQTT, Gemini API." width="100%" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/DwDhrm7/nadi-control"><img src="assets/card-nadi.svg" alt="NADI Control Center: city-operator portal with live map, YOLO-annotated CCTV verification and policy evaluation. Prototype for GEMASTIK XIX 2026. Next.js, Leaflet, Recharts." width="100%" /></a></td>
+    <td width="50%"><a href="https://github.com/DwDhrm7/sikat-karate"><img src="assets/card-sikat.svg" alt="SIKAT: digital belt-promotion exams for a karate organisation with registration, payment proof, tablet scoring and printed results. Next.js, Supabase." width="100%" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/DwDhrm7/Coasther"><img src="assets/card-coasther.svg" alt="Coasther: boarding-house app for rooms, tenancy, usage and payments, part of a smart-kost IoT system. React Native. Demo data." width="100%" /></a></td>
+    <td width="50%"><a href="https://github.com/DwDhrm7/dewa-portfolio"><img src="assets/card-portfolio.svg" alt="Portfolio: bilingual, monochrome editorial site. Next.js, Tailwind, Framer Motion." width="100%" /></a></td>
+  </tr>
+</table>
 
 ## Research
 
@@ -30,11 +50,10 @@ I build dashboards and interfaces for data that arrives in real time: sensors, m
 
 ## Toolbox
 
-**Web and mobile:** TypeScript, Next.js, React, React Native, Tailwind CSS
-**Data and backend:** Python, PostgreSQL, Supabase, MQTT, Node-RED
-**IoT and edge:** ESP32, Raspberry Pi, Modbus/RS-485
-**ML:** scikit-learn, TensorFlow, OpenCV, YOLOv8
+<p align="center">
+  <img src="assets/marquee.svg" alt="Toolbox. Web and mobile: TypeScript, Next.js, React, React Native, Tailwind CSS, Chart.js, Leaflet, Recharts, Framer Motion. Data and backend: Python, PostgreSQL, Supabase, MQTT, Node-RED. IoT and edge: ESP32, Raspberry Pi, Modbus RTU. ML: scikit-learn, TensorFlow, OpenCV, YOLOv8, Gemini API." width="100%" />
+</p>
 
----
-
-<sub>I started out writing short stories and theater scripts. I still care about telling a clear story with every screen.</sub>
+<p align="center">
+  <img src="assets/footer.svg" alt="I started out writing short stories and theater scripts. I still care about telling a clear story with every screen." width="100%" />
+</p>

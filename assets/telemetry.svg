@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="t d">
+<title id="t">Sensor dashboard preview</title>
+<desc id="d">An animated illustration of a smart-farm dashboard with gauges and a streaming line chart. The data is illustrative.</desc>
+<style>
+:root { --bg:#f6f8fa; --card:#ffffff; --ink:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#1a7f37; --soft:#eaeef2; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0d1117; --card:#0d1117; --ink:#e6edf3; --muted:#7d8590; --line:#30363d; --accent:#3fb950; --soft:#161b22; }
+}
+.mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+.bg { fill: var(--bg); } .card { fill: var(--card); stroke: var(--line); }
+.frame { fill:none; stroke: var(--line); }
+.ink { fill: var(--ink); } .muted { fill: var(--muted); } .accent { fill: var(--accent); }
+.soft { fill: var(--soft); }
+.sline { fill:none; stroke: var(--line); }
+.saccent { fill:none; stroke: var(--accent); stroke-linecap:round; stroke-linejoin:round; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+.live { animation: livepulse 2s ease-in-out infinite; } @keyframes livepulse { 50% { opacity:.25 } }
+.v { opacity:0; } .v0 { opacity:1; }
+@keyframes v0 { 0%,24.9% { opacity:1 } 25%,100% { opacity:0 } } .v0 { animation: v0 12s linear infinite; }
+@keyframes v1 { 0%,24.9% { opacity:0 } 25%,49.9% { opacity:1 } 50.0%,100% { opacity:0 } } .v1 { animation: v1 12s linear infinite; }
+@keyframes v2 { 0%,49.9% { opacity:0 } 50%,74.9% { opacity:1 } 75.0%,100% { opacity:0 } } .v2 { animation: v2 12s linear infinite; }
+@keyframes v3 { 0%,74.9% { opacity:0 } 75%,99.9% { opacity:1 } 100.0%,100% { opacity:0 } } .v3 { animation: v3 12s linear infinite; }
+@keyframes g0 { 0% { stroke-dashoffset:50.0 } 25% { stroke-dashoffset:48.0 } 50% { stroke-dashoffset:45.0 } 75% { stroke-dashoffset:50.0 } 100% { stroke-dashoffset:50.0 } } .ga0 { stroke-dasharray:100; stroke-dashoffset:50.0; animation: g0 12s ease-in-out infinite; }
+@keyframes g1 { 0% { stroke-dashoffset:28.0 } 25% { stroke-dashoffset:27.0 } 50% { stroke-dashoffset:26.0 } 75% { stroke-dashoffset:27.0 } 100% { stroke-dashoffset:28.0 } } .ga1 { stroke-dasharray:100; stroke-dashoffset:28.0; animation: g1 12s ease-in-out infinite; }
+@keyframes g2 { 0% { stroke-dashoffset:55.0 } 25% { stroke-dashoffset:54.0 } 50% { stroke-dashoffset:52.0 } 75% { stroke-dashoffset:55.0 } 100% { stroke-dashoffset:55.0 } } .ga2 { stroke-dasharray:100; stroke-dashoffset:55.0; animation: g2 12s ease-in-out infinite; }
+.scroll { animation: scroll 10s linear infinite; } @keyframes scroll { to { transform: translateX(-272px); } }</style>
+<rect class="bg" width="900" height="262" rx="10"/><rect class="frame" x="0.5" y="0.5" width="899" height="261" rx="10"/>
+<circle class="accent live" cx="34" cy="30" r="4"/>
+<text class="mono ink" x="46" y="34" font-size="13" font-weight="700">AgriSense / greenhouse A</text>
+<text class="mono muted" x="876" y="34" font-size="11" text-anchor="end">illustrative data, not a live feed</text>
+<rect class="card" x="24" y="56" width="170" height="160" rx="8"/>
+<text class="mono muted" x="38" y="80" font-size="10.5" letter-spacing="1">AIR TEMPERATURE</text>
+<path class="sline" d="M65.0 168 A44 44 0 0 1 153.0 168" pathLength="100" stroke-width="7" stroke-linecap="round"/>
+<path class="saccent ga0" d="M65.0 168 A44 44 0 0 1 153.0 168" pathLength="100" stroke-width="7"/>
+<text class="mono ink v v0" x="109.0" y="160" font-size="24" font-weight="700" text-anchor="middle">27.4</text>
+<text class="mono ink v v1" x="109.0" y="160" font-size="24" font-weight="700" text-anchor="middle">27.6</text>
+<text class="mono ink v v2" x="109.0" y="160" font-size="24" font-weight="700" text-anchor="middle">27.8</text>
+<text class="mono ink v v3" x="109.0" y="160" font-size="24" font-weight="700" text-anchor="middle">27.5</text>
+<text class="mono muted" x="109.0" y="184" font-size="11" text-anchor="middle">°C</text>
+<rect class="card" x="208" y="56" width="170" height="160" rx="8"/>
+<text class="mono muted" x="222" y="80" font-size="10.5" letter-spacing="1">HUMIDITY</text>
+<path class="sline" d="M249.0 168 A44 44 0 0 1 337.0 168" pathLength="100" stroke-width="7" stroke-linecap="round"/>
+<path class="saccent ga1" d="M249.0 168 A44 44 0 0 1 337.0 168" pathLength="100" stroke-width="7"/>
+<text class="mono ink v v0" x="293.0" y="160" font-size="24" font-weight="700" text-anchor="middle">72.4</text>
+<text class="mono ink v v1" x="293.0" y="160" font-size="24" font-weight="700" text-anchor="middle">73.0</text>
+<text class="mono ink v v2" x="293.0" y="160" font-size="24" font-weight="700" text-anchor="middle">74.1</text>
+<text class="mono ink v v3" x="293.0" y="160" font-size="24" font-weight="700" text-anchor="middle">72.9</text>
+<text class="mono muted" x="293.0" y="184" font-size="11" text-anchor="middle">%RH</text>
+<rect class="card" x="392" y="56" width="170" height="160" rx="8"/>
+<text class="mono muted" x="406" y="80" font-size="10.5" letter-spacing="1">WATER EC</text>
+<path class="sline" d="M433.0 168 A44 44 0 0 1 521.0 168" pathLength="100" stroke-width="7" stroke-linecap="round"/>
+<path class="saccent ga2" d="M433.0 168 A44 44 0 0 1 521.0 168" pathLength="100" stroke-width="7"/>
+<text class="mono ink v v0" x="477.0" y="160" font-size="24" font-weight="700" text-anchor="middle">1236</text>
+<text class="mono ink v v1" x="477.0" y="160" font-size="24" font-weight="700" text-anchor="middle">1240</text>
+<text class="mono ink v v2" x="477.0" y="160" font-size="24" font-weight="700" text-anchor="middle">1262</text>
+<text class="mono ink v v3" x="477.0" y="160" font-size="24" font-weight="700" text-anchor="middle">1232</text>
+<text class="mono muted" x="477.0" y="184" font-size="11" text-anchor="middle">µS/cm</text>
+<rect class="card" x="576" y="56" width="300" height="160" rx="8"/>
+<text class="mono muted" x="590" y="80" font-size="10.5" letter-spacing="1">LAST 5 MINUTES</text>
+<line class="sline" x1="590" y1="96" x2="862" y2="96" stroke-dasharray="2 4"/>
+<line class="sline" x1="590" y1="129" x2="862" y2="129" stroke-dasharray="2 4"/>
+<line class="sline" x1="590" y1="163" x2="862" y2="163" stroke-dasharray="2 4"/>
+<line class="sline" x1="590" y1="196" x2="862" y2="196" stroke-dasharray="2 4"/>
+<defs><clipPath id="clip"><rect x="0" y="-4" width="272" height="108"/></clipPath></defs>
+<g transform="translate(590,96)"><g clip-path="url(#clip)">
+<g class="scroll"><path class="sline" d="M0.0,75.0 L4.5,76.3 L9.1,75.8 L13.6,74.7 L18.1,74.5 L22.7,76.0 L27.2,78.6 L31.7,80.7 L36.3,80.7 L40.8,77.6 L45.3,71.9 L49.9,65.2 L54.4,59.7 L58.9,57.0 L63.5,57.7 L68.0,60.6 L72.5,64.3 L77.1,66.9 L81.6,67.8 L86.1,67.3 L90.7,67.0 L95.2,68.2 L99.7,71.6 L104.3,76.7 L108.8,81.7 L113.3,84.6 L117.9,84.2 L122.4,80.5 L126.9,74.7 L131.5,69.0 L136.0,65.0 L140.5,63.7 L145.1,64.2 L149.6,65.3 L154.1,65.5 L158.7,64.0 L163.2,61.4 L167.7,59.3 L172.3,59.3 L176.8,62.4 L181.3,68.1 L185.9,74.8 L190.4,80.3 L194.9,83.0 L199.5,82.3 L204.0,79.4 L208.5,75.7 L213.1,73.1 L217.6,72.2 L222.1,72.7 L226.7,73.0 L231.2,71.8 L235.7,68.4 L240.3,63.3 L244.8,58.3 L249.3,55.4 L253.9,55.8 L258.4,59.5 L262.9,65.3 L267.5,71.0 L272.0,75.0" stroke-width="1.5" style="stroke:var(--muted);opacity:.55"/><path class="sline" d="M0.0,75.0 L4.5,76.3 L9.1,75.8 L13.6,74.7 L18.1,74.5 L22.7,76.0 L27.2,78.6 L31.7,80.7 L36.3,80.7 L40.8,77.6 L45.3,71.9 L49.9,65.2 L54.4,59.7 L58.9,57.0 L63.5,57.7 L68.0,60.6 L72.5,64.3 L77.1,66.9 L81.6,67.8 L86.1,67.3 L90.7,67.0 L95.2,68.2 L99.7,71.6 L104.3,76.7 L108.8,81.7 L113.3,84.6 L117.9,84.2 L122.4,80.5 L126.9,74.7 L131.5,69.0 L136.0,65.0 L140.5,63.7 L145.1,64.2 L149.6,65.3 L154.1,65.5 L158.7,64.0 L163.2,61.4 L167.7,59.3 L172.3,59.3 L176.8,62.4 L181.3,68.1 L185.9,74.8 L190.4,80.3 L194.9,83.0 L199.5,82.3 L204.0,79.4 L208.5,75.7 L213.1,73.1 L217.6,72.2 L222.1,72.7 L226.7,73.0 L231.2,71.8 L235.7,68.4 L240.3,63.3 L244.8,58.3 L249.3,55.4 L253.9,55.8 L258.4,59.5 L262.9,65.3 L267.5,71.0 L272.0,75.0" transform="translate(272,0)" stroke-width="1.5" style="stroke:var(--muted);opacity:.55"/>
+<path class="saccent" d="M0.0,56.0 L4.5,62.5 L9.1,67.1 L13.6,69.5 L18.1,69.9 L22.7,68.8 L27.2,67.1 L31.7,65.6 L36.3,64.9 L40.8,65.2 L45.3,66.3 L49.9,67.4 L54.4,67.7 L58.9,66.4 L63.5,63.1 L68.0,57.8 L72.5,50.9 L77.1,43.3 L81.6,36.3 L86.1,30.8 L90.7,27.7 L95.2,27.2 L99.7,29.1 L104.3,32.6 L108.8,36.9 L113.3,41.0 L117.9,44.1 L122.4,46.0 L126.9,46.9 L131.5,47.3 L136.0,48.0 L140.5,49.8 L145.1,53.2 L149.6,58.0 L154.1,63.8 L158.7,69.9 L163.2,75.0 L167.7,78.2 L172.3,78.9 L176.8,76.8 L181.3,72.3 L185.9,66.3 L190.4,59.8 L194.9,53.8 L199.5,49.2 L204.0,46.2 L208.5,44.8 L213.1,44.4 L217.6,44.2 L222.1,43.4 L226.7,41.7 L231.2,38.8 L235.7,35.1 L240.3,31.6 L244.8,29.0 L249.3,28.4 L253.9,30.2 L258.4,34.5 L262.9,40.8 L267.5,48.4 L272.0,56.0" stroke-width="2"/><path class="saccent" d="M0.0,56.0 L4.5,62.5 L9.1,67.1 L13.6,69.5 L18.1,69.9 L22.7,68.8 L27.2,67.1 L31.7,65.6 L36.3,64.9 L40.8,65.2 L45.3,66.3 L49.9,67.4 L54.4,67.7 L58.9,66.4 L63.5,63.1 L68.0,57.8 L72.5,50.9 L77.1,43.3 L81.6,36.3 L86.1,30.8 L90.7,27.7 L95.2,27.2 L99.7,29.1 L104.3,32.6 L108.8,36.9 L113.3,41.0 L117.9,44.1 L122.4,46.0 L126.9,46.9 L131.5,47.3 L136.0,48.0 L140.5,49.8 L145.1,53.2 L149.6,58.0 L154.1,63.8 L158.7,69.9 L163.2,75.0 L167.7,78.2 L172.3,78.9 L176.8,76.8 L181.3,72.3 L185.9,66.3 L190.4,59.8 L194.9,53.8 L199.5,49.2 L204.0,46.2 L208.5,44.8 L213.1,44.4 L217.6,44.2 L222.1,43.4 L226.7,41.7 L231.2,38.8 L235.7,35.1 L240.3,31.6 L244.8,29.0 L249.3,28.4 L253.9,30.2 L258.4,34.5 L262.9,40.8 L267.5,48.4 L272.0,56.0" transform="translate(272,0)" stroke-width="2"/></g></g></g>
+<text class="mono muted" x="590" y="208" font-size="10">temperature</text>
+<text class="mono accent" x="862" y="208" font-size="10" text-anchor="end">humidity</text>
+<text class="mono muted" x="24" y="246" font-size="11">mqtt over wss  /  Raspberry Pi gateway  /  sensors: XY-MD02, BSK-EC-100</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 14" width="900" height="14" role="img" aria-labelledby="t d">
+<title id="t">Divider</title>
+<desc id="d">A thin line with a slow highlight sweeping across it.</desc>
+<style>
+:root { --bg:#f6f8fa; --card:#ffffff; --ink:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#1a7f37; --soft:#eaeef2; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0d1117; --card:#0d1117; --ink:#e6edf3; --muted:#7d8590; --line:#30363d; --accent:#3fb950; --soft:#161b22; }
+}
+.mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+.bg { fill: var(--bg); } .card { fill: var(--card); stroke: var(--line); }
+.frame { fill:none; stroke: var(--line); }
+.ink { fill: var(--ink); } .muted { fill: var(--muted); } .accent { fill: var(--accent); }
+.soft { fill: var(--soft); }
+.sline { fill:none; stroke: var(--line); }
+.saccent { fill:none; stroke: var(--accent); stroke-linecap:round; stroke-linejoin:round; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+.sweep { animation: sweep 6s ease-in-out infinite; opacity:.9 } @keyframes sweep { 0% { transform: translateX(-120px); } 100% { transform: translateX(900px); } }</style>
+<line class="sline" x1="0" y1="7" x2="900" y2="7"/><rect class="accent sweep" x="0" y="6" width="120" height="2" rx="1"/>
+</svg>

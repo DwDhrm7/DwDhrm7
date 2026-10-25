@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 112" width="900" height="112" role="img" aria-labelledby="t d">
+<title id="t">Quick facts</title>
+<desc id="d">Two SINTA 3 papers, two GEMASTIK entries led, two IoT platforms built, four months as an IoT intern.</desc>
+<style>
+:root { --bg:#f6f8fa; --card:#ffffff; --ink:#1f2328; --muted:#656d76; --line:#d0d7de; --accent:#1a7f37; --soft:#eaeef2; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0d1117; --card:#0d1117; --ink:#e6edf3; --muted:#7d8590; --line:#30363d; --accent:#3fb950; --soft:#161b22; }
+}
+.mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+.bg { fill: var(--bg); } .card { fill: var(--card); stroke: var(--line); }
+.frame { fill:none; stroke: var(--line); }
+.ink { fill: var(--ink); } .muted { fill: var(--muted); } .accent { fill: var(--accent); }
+.soft { fill: var(--soft); }
+.sline { fill:none; stroke: var(--line); }
+.saccent { fill:none; stroke: var(--accent); stroke-linecap:round; stroke-linejoin:round; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+.d { opacity:0; } .d.last { opacity:1; } @keyframes blip { 0%,100% { opacity:1 } } @keyframes land { 0% { opacity:0 } 1%,100% { opacity:1 } }
+</style>
+<rect class="bg" width="900" height="112" rx="10"/><rect class="frame" x="0.5" y="0.5" width="899" height="111" rx="10"/>
+<text class="mono ink d" x="112" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 0.50s 1;">0</text>
+<text class="mono ink d" x="112" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 0.66s 1;">1</text>
+<text class="mono ink d last" x="112" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: land .01s linear 0.82s 1 backwards;">2</text>
+<text class="mono muted" x="112" y="88" font-size="12.5" text-anchor="middle">SINTA 3 papers</text>
+<line class="sline" x1="225" y1="26" x2="225" y2="86"/>
+<text class="mono ink d" x="338" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 0.75s 1;">0</text>
+<text class="mono ink d" x="338" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 0.91s 1;">1</text>
+<text class="mono ink d last" x="338" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: land .01s linear 1.07s 1 backwards;">2</text>
+<text class="mono muted" x="338" y="88" font-size="12.5" text-anchor="middle">GEMASTIK entries led</text>
+<line class="sline" x1="450" y1="26" x2="450" y2="86"/>
+<text class="mono ink d" x="562" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 1.00s 1;">0</text>
+<text class="mono ink d" x="562" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 1.16s 1;">1</text>
+<text class="mono ink d last" x="562" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: land .01s linear 1.32s 1 backwards;">2</text>
+<text class="mono muted" x="562" y="88" font-size="12.5" text-anchor="middle">IoT platforms built</text>
+<line class="sline" x1="675" y1="26" x2="675" y2="86"/>
+<text class="mono ink d" x="788" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 1.25s 1;">0</text>
+<text class="mono ink d" x="788" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 1.41s 1;">1</text>
+<text class="mono ink d" x="788" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 1.57s 1;">2</text>
+<text class="mono ink d" x="788" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: blip .16s steps(1,end) 1.73s 1;">3</text>
+<text class="mono ink d last" x="788" y="62" font-size="40" font-weight="700" text-anchor="middle" style="animation: land .01s linear 1.89s 1 backwards;">4</text>
+<text class="mono muted" x="788" y="88" font-size="12.5" text-anchor="middle">months as IoT intern</text>
+</svg>
